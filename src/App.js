@@ -75,8 +75,6 @@ function ShoppingCart() {
   );
 }
 
-
-
 let nextId = 3;
 const initialTodos = [
   { id: 0, title: "Buy milk", done: true },
@@ -130,10 +128,10 @@ function TaskApp() {
 
 const App = () => {
   return (
-  <>
-  <ShoppingCart></ShoppingCart>
-  <TaskApp></TaskApp>
-  </>
+    <>
+      <ShoppingCart></ShoppingCart>
+      <TaskApp></TaskApp>
+    </>
   );
 };
 export default App;
